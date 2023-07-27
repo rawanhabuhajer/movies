@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+.details-img{
+   width: 300px;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.details-header{
+    margin-top: 7rem;
+    font-family: 'Goldman', 'cursive';
+    color: #fff;
+
+}
+.details-img2{
+    width:5%;
+}
+.details-rating{
+    margin-left: 0.8rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.details-date{
+    font-family: 'Ubuntu', sans-serif;
+}
+.details-genre{
+    font-family: 'Ubuntu', sans-serif;
+}
+.director{
+    margin-bottom: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Storyline{
+    border-left: #a70101 4px solid;
+    height: 50px;
+    padding-left: 1rem;
+    font-size: 34px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.TopCast{
+    border-left: #a70101 4px solid;
+    height: 50px;
+    padding-left: 1rem;
+    font-size: 34px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+}
+.img-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.img-div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 10rem;
+
+}
+.img-div img{
+    width: 120px;
+    height: 120px;
+   border-radius: 100%;
+}
+
+.img-div p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+.details{
+   margin-top: 2rem;
+   font-size: 18px;
+   
+}
+.container{
+    font-size: 20px;
+    margin-top: 5rem;
+}
+.cover-container{
+    width: 100%;
+    height: 70vh;
+
+}
+.img-container{
+ width: 100%;
+ height: 70vh;
+ position: relative;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    position: absolute;
+    top: 27rem;
+    justify-content: center;
+    left: 15rem;
+    
+
+}
+.box1{
+    width: 180px;
+    height: 130px;
+    background-color: #a70101;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    transition: all 0.3s;
+}
+.box1:hover{
+    scale: 1.1;
+    background-color: #a70101;
+}
+.box1 img {
+    width: 55px;
+    height:55px;
+   
+}
+.box2{
+    width: 180px;
+    height: 130px;
+    background-color: rgba(79, 79, 79, 0.769) ;
+    border-radius: 20px;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.box2:hover{
+    scale: 1.1;
+    background-color: #a70101;
+}
+.box2 img {
+    width: 35px;
+    height:35px; 
+}
+.box2 h1 {
+   color: #fff; 
+   font-size: 35px;
+}
+.box3{
+    width: 180px;
+    height: 130px;
+    background-color: #464646c4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+
+}
+.box3:hover{
+    scale: 1.1;
+    background-color: #a70101;
+}
+.box3 h1 {
+    color: #fff; 
+    font-size: 35px;
+ }
+.box4{
+    width: 180px;
+    height: 130px;
+    background-color: #464646c4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    
+}
+.box4:hover{
+    scale: 1.1;
+    background-color: #a70101;
+}
+.box4 h1 {
+    color: #fff; 
+    font-size: 35px;
+ }
+.box5{
+    width: 180px;
+    height: 130px;
+    background-color: #464646c4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.box5:hover{
+    scale: 1.1;
+    background-color: #a70101;
+}
+.box5 h1 {
+    color: #fff; 
+    font-size: 35px;
+ }
